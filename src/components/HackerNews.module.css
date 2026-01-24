@@ -1,17 +1,26 @@
 li {
-    width: 400px;
-    height: 450px;
-    overflow: hidden;
-    background-color: rgba(255, 127, 80, 0.359);
+  width: 400px;
+  height: 450px;
+  overflow: hidden;
+  background-color: white;
 }
 
 ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
-    gap: 20px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+body {
+  background-image: url(../hackersFoto.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  margin: 0;
 }

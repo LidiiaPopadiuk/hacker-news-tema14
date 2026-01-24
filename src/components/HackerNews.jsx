@@ -2,7 +2,7 @@ import { Component } from "react";
 import axios from "axios";
 import x from './HackerNews.module.css'
 
-const getInfo = 'http://hn.algolia.com/api/v1/search_by_date?tags=story'
+const getInfo = 'https://hn.algolia.com/api/v1/search_by_date?tags=story'
 
 export class HackerNews extends Component {
     state = {
